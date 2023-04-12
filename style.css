@@ -1,0 +1,203 @@
+html {
+    min-height: 100%;
+    min-width: 100%;
+}
+
+body {
+    background-color: whitesmoke
+
+}
+
+header {
+    display: inline-block;
+    position: top;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    
+}
+#banner h1 {
+    color: black;
+    font-family: Effra ;
+    letter-spacing: 3px ;
+    text-align: center;
+}
+
+ h1 {
+    font-family: Effra ;
+    letter-spacing: 5px ;
+    text-align: center;
+    font-weight: lighter;
+}
+
+li {
+    display: inline-block;
+    font-size: 2rem;
+    color: white;
+    font-family: Effra ;
+    padding: 0px 20px;
+    font-weight: 500px;
+    letter-spacing: 2px;
+    
+}
+
+ul {
+    text-align: center;
+}
+li:hover {
+    color: rgb(208, 157, 27);
+}
+
+table, th, td, tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#logo {
+    height: 40px;
+    width: 40px;
+}
+
+ #list h5 {
+    color: grey;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#arrow {
+    height: 30px;
+    width:30px;
+}
+
+td {
+    text-align: center;
+}
+
+th {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#stories {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+
+#Banner {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#Spotlight {
+    display: inline-block;
+    background-image: url("https://burncitysports.com/wp-content/uploads/2023/02/USATSI_20004905-scaled-e1676578693593.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    width: 100%;
+    height: 900px;
+    
+    
+}
+
+#Spotlight p {
+    color: black;
+    text-transform: capitalize;
+    font-weight: lighter;
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border-top: 24px darkgrey solid;
+    background-color: whitesmoke;
+    height: 175px;
+    width: 300px;
+    margin-top: 600px;
+    margin-left: 100px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    
+}
+
+#Spotlight h5 {
+    color: white;
+    font-size: 14px;
+    margin-top: 85px;
+    margin-right: 0px;
+    text-align: right;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#list h2 {
+    font-family: Effra;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 600px;
+}
+
+#article {
+ font-size: 1rem;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ letter-spacing: 2px;
+ word-spacing: normal;
+ color: rgb(95, 90, 90);
+ width: 50%; 
+margin-left: 25%;
+display: inline-block;
+
+}
+
+ #article p {
+font-weight: 100;
+line-height: 48px;
+color: black
+ }
+
+ #article b {
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+ }
+
+ #article h2 {
+    color: grey;
+    font-weight: lighter;
+    font-size: 14px;
+ }
+
+footer {
+    height: 450px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Effra;
+    font-weight: 100;
+    letter-spacing: 5px;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+footer hr {
+    color: white;
+}
+
+footer h4 {
+    color: white;
+    font-size: 12px;
+    text-align: left;
+    font-weight: lighter;
+}
+
+footer a {
+    text-decoration: none;
+    color: white
+}
+
